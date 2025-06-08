@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\WandererGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WandererGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WandererGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\WandererGame">
+      <UniqueIdentifier>{1F0076F1-4BF5-3461-A6C7-45E46C0001D4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WandererGame\MainCharacter.cpp">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WandererGame\MainCharacter.h">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WandererGame\PlayerAnimInstance.cpp">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WandererGame\PlayerAnimInstance.h">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WandererGame\ThiefCatcher.cpp">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WandererGame\ThiefCatcher.h">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WandererGame\ThiefCatcherGameMode.cpp">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WandererGame\ThiefCatcherGameMode.h">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\WandererGame\WandererGame.Build.cs">
+      <Filter>Source\WandererGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\WandererGame\WandererGame.cpp">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WandererGame\WandererGame.h">
+      <Filter>Source\WandererGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
