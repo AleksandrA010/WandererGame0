@@ -35,4 +35,10 @@ public:
 
 	void StopJump();
 
+	void StartSit();
+	void StopSit();
+	void ToggleSit();
+
+	bool bIsSitting;
+
 };
